@@ -1,6 +1,33 @@
-.dashboard {
-  background-color: #1a1a1a;
+.sign {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 1em;
+  border: 1px solid #646cff;
+  border-radius: 8px;
+  padding: 0.6em;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+}
+
+div.input-area label {
+  padding: 0 0.6em;
+}
+
+.submit {
+  width: 100%;
+}
+
+.msg {
+  text-align: center;
+}
+
+.msg-correct {
+  visibility: hidden;
+}
+
+.msg-incorrect {
+  visibility: visible;
 }

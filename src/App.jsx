@@ -29,8 +29,8 @@ function App() {
       <div className={styles.dashboard}>
         <button onClick={() => setPage(Pages.HOME)}>Home</button>
         <div>
-          <button onClick={() => setPage(Pages.SIGNIN)}>Sign in</button>
-          <button onClick={() => setPage(Pages.SIGNUP)}>Sign up</button>
+          <button onClick={() => setPage(Pages.SIGNIN)}>Sign In</button>
+          <button onClick={() => setPage(Pages.SIGNUP)}>Sign Up</button>
         </div>
       </div>
       <div className={styles.outlet}>

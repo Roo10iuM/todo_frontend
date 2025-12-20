@@ -70,12 +70,12 @@ export default function SignUp({ onRegisterSuccess }) {
             {isSubmitting ? 'Signing Up...' : 'Sign Up'}
           </button>
         </div>
-        {errorMessage || successMessage ? (
-          <div className={getMsgStyle(Boolean(errorMessage))}>
-            {errorMessage || successMessage}
-          </div>
-        ) : null}
       </form>
+      {errorMessage || successMessage ? (
+        <div className={getMsgStyle(Boolean(errorMessage))}>
+          {errorMessage || successMessage}
+        </div>
+      ) : null}
     </>
   );
 }

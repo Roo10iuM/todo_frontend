@@ -65,10 +65,10 @@ export default function SignIn({ onAuthSuccess }) {
             {isSubmitting ? 'Signing In...' : 'Sign In'}
           </button>
         </div>
-        {errorMessage ? (
-          <div className={getMsgStyle(errorMessage)}>{errorMessage}</div>
-        ) : null}
       </form>
+      {errorMessage ? (
+        <div className={getMsgStyle(errorMessage)}>{errorMessage}</div>
+      ) : null}
     </>
   );
 }
